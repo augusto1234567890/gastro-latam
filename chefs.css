@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+body{ 
+    background: cornsilk;
+}
+img{
+    margin:0 auto;
+    display:block;
+}

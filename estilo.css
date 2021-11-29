@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background: wheat;
+}
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+img{
+    width:200px;
+    margin-top:50px;
+    margin-left:50px;
+}
+.nav{
+    background-color:lightsteelblue;
+    margin: 1px;  
+    padding: 15px 30px;
+    border:solid 1px black;
+  }
+nav{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+nav ul{
+    list-style:none;
+    display:table;
+    overflow:hidden;
+    width: 100%;
+}
+nav > ul li {
+    display: table-cell;
+}
+nav > ul li a {
+    color: black;
+    display:block;
+    line-height: 20px;
+    padding:20px;
+    position:relative;
+    text-align: center;
+    text-decoration:none;
+}
+a :link{
+    color:maroon;
+}
+a:hover{
+    font-size: 1.1em;
+    color:maroon;
+}
+section{
+    width:750px;
+    height:450px;
+    float:left;
+}
+aside{
+    width:185px;
+    height:400px;
+    float: left;
+}
+.fotos{
+    width:50px;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    color:coral;
+}
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.controls{
+    padding: 10px;
+    margin: 3px;
+}
+.email{
+    text-align: center;
+}
