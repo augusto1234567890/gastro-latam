@@ -11,29 +11,37 @@
         <img src="gastronomia.png" Title="Logo de GastroLatam">
     </header>
     <nav>
-        <ul>
-          <li> <a href="#"> <span class="nav"> Nosotros </span> </a></li>
-          <li> <a href="Chefs.html"> <span class="nav"> Chefs </a> </span> </li>
-          <li> <a href="#"> <span class="nav"> Países </span></a> </li>
-          <li> <a href="contacto.html"> <span class="nav"> Contactos </span> </a> </li>
-        </ul>
-      </nav> 
-        <section>
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="chefs.html">Chefs</a>
+            <a href="#">Países</a>
+            <a href="contacto.html">Contactos</a>
+        </div>
+    </nav> 
+    <section>
+        <div class="container">
             <h2>Dehesa El Milagro, mejor producto innovador en productos acabados ecológicos</h2>
             <p class="texto">Dehesa El Milagro está de enhorabuena tras recibir el premio a ‘Mejor producto innovador en productos acabados ecológicos’ de parte de Organic Food Iberia por su nuevo producto: el pollo relleno ecológico. Una pieza perfecta para todos aquellos que apuestan por carne de alta gastronomía con certificado ecológico.</p> <br>
             <h2>Noma, mejor restaurante del mundo #Worlds50Best</h2>
             <p class="texto">El restaurante Noma, del cocinero Renè Redzepi, resulta elegido el mejor restaurante del mundo 2021.También es notable la presencia de restaurantes latinoamericanos con siete establecimientos de México, Colombia, Perú, Chile y Argentina.</p> <br>
             <h2>Día Mundial del Huevo</h2>
             <p class="texto">Este año se celebra el XXV aniversario del Día mundial del huevo, efemérides de carácter internacional que viene festejándose desde hace un cuarto de siglo el segundo viernes de octubre. Y es que seguramente hay pocos productos que conciten tanto interés en todo el planeta, independientemente de las culturas o cocinas de que se trate. Las razones son evidentes. Empezando porque es un alimento lleno de nutrientes, muy proteico, que posee casi todas las vitaminas –excepto la C-, muchos minerales y pocas calorías. Desterrada la leyenda de que su contenido en colesterol (unos 200 mg. por unidad) eleva el riesgos cardiovascular- como se encarga de desmentir en su web el Instituto del huevo aludiendo a estudios científicos recientes-, todo lo que aporta son ventajas. Y no sólo nutricionales. Es difícil encontrar un producto tan versátil en la cocina, tanto que si no existiera habría que inventarlo.</p> <br>
-        </section>
-    <aside>
-       <p> <a href="facebook.html"> <img class="fotos" src="facebook.png"> </a>
-       <a href="instagram.html"><img class="fotos" src="instagram.png"> </a> 
-        <a href="twitter.html"> <img class="fotos" src="twitter.png"></a> </p> <br> <br>
-        <p class="email">¡Recibe noticias y ofertas sobre Gastronomía Profesional!</p> 
-        <form Name = "Formulario" Method="post" Action="mailto:gastrolatam@gmail.com">
-            <input class="controls" type="text" name="origen" size="40" maxlength="50" id="Email" placeholder="Email"> <br>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="social-media">
+                <a href="facebook.html"><img src="facebook.png"></a>
+                <a href="instagram.html"><img src="instagram.png"></a> 
+                <a href="twitter.html"><img src="twitter.png"></a>
+            </div>
+            <p class="email">¡Recibe noticias y ofertas sobre Gastronomía Profesional!</p> 
+            <form method="post" action="mailto:gastrolatam@gmail.com">
+                <input type="text" name="email" size="40" maxlength="50" placeholder="Email"> <br>
                 <input type="submit" name="Enviar" Value="Enviar">
-    </aside>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

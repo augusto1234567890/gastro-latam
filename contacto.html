@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Gastro Latam</title>
+    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
-    <h1>Contacto</h1>
-    <h3> Email: </h3>
-    <p> <a href="mailto:latamgastro@gmail.com"> latamgastro@gmail.com</a> </p>
-    <h3> Facebook: </h3>
-    <p> <a href="Facebook.html"> Gastronomía de Latinoamérica </a> </p>
-    <h3>Instagram:</h3>
-    <p> <a href="Instagram.html"> gastrolatam</a> </p>
-    <h3> Twitter: </h3>
-    <p> <a href="Twitter.html"> @gastrolatam </a> </p>
+    <header>
+        <h1 class="title">Gastro Latam</h1>
+        <img src="gastronomia.png" Title="Logo de GastroLatam">
+    </header>
+    <nav>
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="chefs.html">Chefs</a>
+            <a href="#">Países</a>
+            <a href="contacto.html">Contactos</a>
+        </div>
+    </nav> 
+    <section>
+        <div class="container">
+            <h2>Contacto</h2>
+            <br><br>
+            <p> <b>Email: </b> <a href="mailto:latamgastro@gmail.com" target="_blank"> latamgastro@gmail.com</a> </p>
+            <br>
+            <p> <b>Facebook: </b><a href="https://facebook.com/gastrolatam" target="_blank"> Gastronomía de Latinoamérica </a> </p>
+            <br>
+            <p> <b>Instagram: </b><a href="https://instagram.com/gastrolatam" target="_blank"> gastrolatam</a> </p>
+            <br>
+            <p> <b>Twitter: </b><a href="https://twitter.com/gastrolatam" target="_blank"> @gastrolatam </a> </p>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="social-media">
+                <a href="https://facebook.com/gastrolatam" target="_blank"><img src="facebook.png"></a>
+                <a href="https://instagram.com/gastrolatam" target="_blank"><img src="instagram.png"></a> 
+                <a href="https://twitter.com/gastrolatam" target="_blank"><img src="twitter.png"></a>
+            </div>
+            <p class="email">¡Recibe noticias y ofertas sobre Gastronomía Profesional!</p> 
+            <form method="post" action="mailto:gastrolatam@gmail.com">
+                <input type="text" name="email" size="40" maxlength="50" placeholder="Email"> <br>
+                <input type="submit" name="Enviar" Value="Enviar">
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

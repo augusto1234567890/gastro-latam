@@ -1,80 +1,102 @@
 *{
     margin:0;
     padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
+    padding: 40px 0;
     background: wheat;
 }
-h1{
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
+header img {
+    margin: auto;
+    display: block;
+    width: 300px;
 }
-img{
-    width:200px;
-    margin-top:50px;
-    margin-left:50px;
-}
-.nav{
-    background-color:lightsteelblue;
-    margin: 1px;  
-    padding: 15px 30px;
-    border:solid 1px black;
-  }
-nav{
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1000px;
-}
-nav ul{
-    list-style:none;
-    display:table;
-    overflow:hidden;
-    width: 100%;
-}
-nav > ul li {
-    display: table-cell;
-}
-nav > ul li a {
-    color: black;
-    display:block;
-    line-height: 20px;
-    padding:20px;
-    position:relative;
+header h1{
     text-align: center;
-    text-decoration:none;
+    margin-bottom: 24px;
 }
-a :link{
-    color:maroon;
-}
-a:hover{
-    font-size: 1.1em;
-    color:maroon;
-}
-section{
-    width:750px;
-    height:450px;
-    float:left;
-}
-aside{
-    width:185px;
-    height:400px;
-    float: left;
-}
-.fotos{
-    width:50px;
+.container {
+    width: 1145px;
 }
 h2{
     text-align: center;
     font-family: cursive;
     color:coral;
 }
-.texto{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.controls{
-    padding: 10px;
-    margin: 3px;
-}
 .email{
     text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(51, 63, 83);
+}
+nav .container {
+    display: flex;
+    flex-direction: row;
+}
+nav .container a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    display: block;
+}
+nav .container a:hover {
+    background-color: #fff2;
+}
+section {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer {
+    background-color: rgb(51, 63, 83);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+footer p {
+    color: white;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+.social-media a img {
+    width: 50px;
+    border-radius: 100%;
+}
+input[type=text] {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+}
+button, input[type=submit] {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+}
+button:hover, input[type=submit]:hover {
+    background-color: #eee;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
